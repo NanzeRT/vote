@@ -1,5 +1,5 @@
 body {
-	font: 16px/20px "Arial", sans-serif;
+	font-family: "Arial", sans-serif;
 	min-width: 650px;
 	
 }
@@ -11,8 +11,8 @@ header {
 	background-size: 270px;
 	border-bottom: 8px solid #96ded1;
 	font-size: 36px;
-	height: 75px;
-	line-height: 70px;
+	height: 65px;
+	line-height: 65px;
 }
 header div {
 	height: 100%;
@@ -21,7 +21,7 @@ header div {
 	
 }
 aside {
-	margin-top: 78px;
+	margin-top: 68px;
 	position: fixed;
 	background: #dbe9f4;
 	width: 150px;
