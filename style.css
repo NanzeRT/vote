@@ -7,12 +7,18 @@ header {
 	position: fixed;
 	min-width: 650px;
 	width: 100%;
-	background: #e6e8fa url(header-img.png) no-repeat top right;
+	background: #b9f2ff url(header-img.png) no-repeat top right;
 	background-size: 270px;
-	border-bottom: 3px solid #afeeee;
+	border-bottom: 8px solid #96ded1;
 	font-size: 36px;
 	height: 75px;
 	line-height: 70px;
+}
+header div {
+	height: 100%;
+	width: 100%;
+	border-bottom: 6px solid #dbe9f4;
+	
 }
 aside {
 	margin-top: 78px;
@@ -32,24 +38,35 @@ aside .lin {
 	margin-left: -20px;
 }
 main {
+	font-size: 100%;
 	padding: 200px;
+	padding-top: 83px;
 	padding-right: 0px;
+}
+.ads {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-right: 10%;
+	border: 2px solid #dbe9f4;
+	height: 80px;
+	color: #e5e5e5;
+	font-size: 200%;
 }
 .main {
 	margin-right: 10%;
 	border: 1px solid #1c1cf0;
 	padding: 20px;
 }
+.padLa {
+	padding-left: 10%;
+}
 blockquote {
 	padding: 10px;
 	max-width: 400px;
-	background: #e6e8fa;
+	background: #dee8fa;
 	border-left: 2px solid #96ded1;
 }
 cite {
 	
 	padding-left: 25px;
-}
-.padLa {
-	padding-left: 10%;
 }
